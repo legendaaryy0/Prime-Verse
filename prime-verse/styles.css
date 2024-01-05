@@ -1,0 +1,194 @@
+/* Twelve Ton Sushi */
+body {
+    font-family: 'Ink Free';
+    font-weight: light;
+    text-align: center;
+}
+
+#features, #testimonials, #CTA, .container-fluid{
+    padding: 5% 15%;
+}
+
+h1, h2, h3{
+    font-family: 'abeatbyKai';
+}
+
+h1 {
+    color: white;
+    font-size: 3.5rem;
+    font-weight: 300;
+    line-height: 1.5;
+}
+
+h2 {
+    font-size: 3rem;
+}
+h3 {
+    font-weight: bold;
+}
+
+#title {
+    background-color: #ff4c68;
+    text-align: left;
+    padding-bottom: 75px;
+}
+
+
+
+.phones-img {
+    width: 600px;
+    transform: rotate(25deg);
+    position: absolute;
+    left: 17%;
+    z-index: 0;
+}
+
+
+
+
+/* navigation bar */
+
+.navbar {
+    padding-left: 0;
+    padding-right: 0;
+    padding-bottom: 4.5rem;
+    font-size: 1.2rem;
+}
+
+.navbar-brand {
+    font-family: 'Vegetable';
+    font-size: 2.5rem;
+    line-height: 1.5;
+}
+
+.nav-item {
+    padding: 0 18px 0 18px;
+}
+
+
+/* features section */
+
+p {
+    color: gray;
+    font-weight: lighter;
+    font-size: x-large;
+
+}
+
+#features {
+    background-color: white;
+    position: relative;
+    z-index: +1;
+}
+
+
+
+.feature-box {
+    padding: 5%;
+}
+
+.icon {
+    color: #ef8172;
+    margin-bottom: 1rem;
+}
+
+.icon :hover {
+    color: #ff4c68;
+}
+
+/* Testimonials section */
+
+#testimonials {
+    background-color: #ef8172;
+    color: white;
+}
+
+.testimonial-image {
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
+    
+}
+
+.carousel-item {
+    height: 500px;
+}
+
+
+
+.icons{
+ text-align: center;
+    width: 70px;
+    margin: 20px 20px 50px;
+}
+
+
+.sign-up-button{
+    width: 90%;
+}
+
+#packages{
+    padding: 100px;
+}
+
+
+.packagesc{
+    padding: 3% 5%;
+}
+
+.web{
+    color: white;
+    text-decoration: none;
+    text-decoration-style: none ;
+}
+
+
+@media (max-width:1024px) {
+    #title{
+        text-align: center;
+        overflow-x: hidden;
+    }
+    /* body{
+        overflow: hidden;
+    } */
+    .phones-img{
+        position: static;
+        margin: auto;
+        transform: rotate(0deg);
+        width: 350px;
+    }
+    .icons{
+        width: 55px;
+        margin: 10px 10px 25px;
+    }
+    .download-drawer{
+        font-size: 2.5rem;
+    }
+}
+
+
+/* FOOTER */
+#CTA{
+    background-color: #ff4c68;
+    
+}
+.footer-text{
+    color: white;
+    font-size: xx-large;
+}
+
+#footer{
+    padding: 3% 11%;
+   
+    
+}
+.ftext{
+    margin-bottom: 20px;
+}
+.mini-icons{         
+    margin: 20px 10px;
+}
+.appss{
+    padding-top: 50px;
+    color: white;
+}
